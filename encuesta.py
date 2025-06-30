@@ -48,9 +48,8 @@ class EncuestaLimitadaRegion(Encuesta):
         return self.__region
     
     @region.setter
-    def region(self, elemento:int, region:int):
-        indice = self.__region.index(elemento)
-        self.__region[indice] = region
+    def region(self, region:int):
+        self.__region = region
 
     def limite(self, usuario :Usuario):
         if usuario.region in self.region:

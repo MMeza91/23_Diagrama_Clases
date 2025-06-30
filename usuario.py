@@ -30,10 +30,4 @@ class Usuario:
         self.__region = region
 
     def responder_encuesta(self):
-        input("""¿Que tipo de encuesta quieres responder:
-              1.- normal
-              2.- Regional
-              3.- 
-              
-              
-              """)
+        pass
